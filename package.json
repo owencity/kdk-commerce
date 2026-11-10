@@ -1,0 +1,20 @@
+{
+  "name": "kdk-commerce-docs",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "docs:dev": "vitepress dev --host 127.0.0.1 --port 4173 --strictPort",
+    "docs:open": "npm run docs:dev -- --open /docs/02-requirements",
+    "docs:build": "vitepress build",
+    "docs:preview": "vitepress preview --host 127.0.0.1 --port 4173 --strictPort"
+  },
+  "devDependencies": {
+    "mermaid": "11.17.2",
+    "vitepress": "1.6.4",
+    "vue": "3.5.45"
+  },
+  "overrides": {
+    "vite": "6.4.6",
+    "katex": "0.18.2"
+  }
+}
