@@ -1,0 +1,17 @@
+node_modules/
+.vitepress/cache/
+.vitepress/dist/
+.sites-runtime/
+*.log
+output/
+tmp/
+.env
+.env.*
+!.env.example
+.aws/
+.codex/
+.agents/
+
+# Older local prompts; current instructions are in AGENTS.MD.
+CLAUDE.MD
+docs/Prompts.MD
