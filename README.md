@@ -10,11 +10,13 @@
 
 | 구분 | 기술 | 상태 |
 | --- | --- | --- |
-| 언어·프레임워크 | Kotlin · Spring Boot | 확정 |
+| 언어·프레임워크 | Java 21 · Spring Boot 4.2.0 | 설정 완료 |
 | DB·데이터 접근 | MySQL(InnoDB) · Spring Data JPA | 제안 |
-| 빌드 | Gradle Kotlin DSL | 제안 |
-| 테스트 | JUnit · Testcontainers | 제안 |
+| 빌드 | Gradle 9.9.2 · Kotlin DSL | 설정 완료 |
+| 테스트 | JUnit · Testcontainers | JUnit 설정 완료 · Testcontainers 제안 |
 | 실행·배포 | Docker Compose | 제안 |
+
+주문 코드는 Java로 먼저 작성하고 이후 Kotlin으로 넘어간다. [개발 환경과 실행 방법](docs/development-setup.md)
 
 처음에는 기능별로 코드를 나눈 모듈러 모놀리스로 만든다. 부하 한계와 장애를 확인하고 개선안을 비교한 뒤, 일부 기능을 MSA로 분리한다.
 

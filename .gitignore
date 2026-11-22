@@ -15,3 +15,14 @@ tmp/
 # Older local prompts; current instructions are in AGENTS.MD.
 CLAUDE.MD
 docs/Prompts.MD
+
+# Java / Gradle
+.gradle/
+build/
+out/
+bin/
+.idea/
+*.iml
+.classpath
+.project
+.settings/
